@@ -1,0 +1,3 @@
+iotery-embedded-python-sdk==0.0.13
+paho-mqtt==1.4.0
+requests==2.5.4.1
