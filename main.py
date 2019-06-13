@@ -9,7 +9,7 @@ import ssl
 TEAM_ID="188baf45-8d55-11e8-b121-d283610663ed" 
 iotery = Iotery()
 d = iotery.getDeviceTokenBasic(data={"key": "temp-sensor-key",
-                                     "serial": "temp-sensor-1", "secret": "secret1"})
+                                     "serial": "temp-sensor-1", "secret": "secret1", "teamUuid":TEAM_ID})
 
 # set token for subsequent eatery calls
 iotery.set_token(d["token"])
